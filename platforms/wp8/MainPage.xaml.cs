@@ -34,7 +34,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Resources;
 
 
-namespace io.cordova.hellocordova
+namespace com.ionicframework.modemap114209
 {
     public partial class MainPage : PhoneApplicationPage
     {
