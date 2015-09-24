@@ -4,23 +4,22 @@
     <Languages xmlns="">
         <Language code="en-US" />
     </Languages>
-    <App Author="Ionic Framework Team" BitsPerPixel="32" Description="An Ionic Framework and Cordova project." Genre="apps.normal" ProductID="{5df69820-61cd-11e5-bb93-b5cf265ef8fe}" Publisher="Ionic Framework Team" PublisherID="{db093ed5-53b1-45f7-af72-751e8f36ab80}" RuntimeType="Silverlight" Title="modemap" Version="0.0.1" xmlns="">
+    <App Author="Apache Cordova Team" BitsPerPixel="32" Description="A sample Apache Cordova application that responds to the deviceready event." Genre="apps.normal" ProductID="{57775970-62aa-11e5-90bc-87ce754bfacc}" Publisher="Apache Cordova Team" PublisherID="{db093ed5-53b1-45f7-af72-751e8f36ab80}" RuntimeType="Silverlight" Title="HelloCordova" Version="0.0.1" xmlns="">
         <IconPath IsRelative="true" IsResource="false">ApplicationIcon.png</IconPath>
         <Capabilities>
             <Capability Name="ID_CAP_WEBBROWSERCOMPONENT" />
             <Capability Name="ID_CAP_NETWORKING" />
-            <Capability Name="ID_CAP_IDENTITY_DEVICE" />
         </Capabilities>
         <Tasks>
             <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
         </Tasks>
         <Tokens>
-            <PrimaryToken TaskName="_default" TokenID="modemapToken">
+            <PrimaryToken TaskName="_default" TokenID="HelloCordovaToken">
                 <TemplateFlip>
                     <SmallImageURI IsRelative="true" IsResource="false">Background.png</SmallImageURI>
                     <Count>0</Count>
                     <BackgroundImageURI IsRelative="true" IsResource="false">Background.png</BackgroundImageURI>
-                    <Title>modemap</Title>
+                    <Title>HelloCordova</Title>
                     <BackContent />
                     <BackBackgroundImageURI />
                     <BackTitle />

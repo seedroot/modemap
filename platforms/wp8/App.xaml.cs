@@ -32,7 +32,7 @@ using System.Windows.Shapes;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 
-namespace com.ionicframework.modemap114209
+namespace io.cordova.hellocordova
 {
     public partial class App : Application
     {
