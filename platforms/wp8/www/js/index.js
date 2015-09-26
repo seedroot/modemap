@@ -2,15 +2,15 @@
     'use strict'
 
     angular
-        .module('modemap', ['ui.router']);
+        .module('modemap', ['ui.router'])
         .config(function($stateProvider, $urlRouterProvider) {
-            $urlRouterProvider.otherwise('/');
+            $urlRouterProvider.otherwise = 'login';
 
             $stateProvider
-                .state('main', {
-                    url: '/',
-                    templateUrl: 'index.html',
-                    controller: 'mainCntrl',
+                .state('forgot', {
+                    url: '/forgotPassword',
+                    templateUrl: 'partials/authentication/forgotPassword.html',
+                    controller: 'forgotCntrl',
                     controllerAs: 'vm'
                 })
                 .state('login', {

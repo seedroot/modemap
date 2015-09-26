@@ -1,0 +1,14 @@
+E:\apps\modemap\platforms\wp8\Bin\Debug\ApplicationIcon.png
+E:\apps\modemap\platforms\wp8\Bin\Debug\Background.png
+E:\apps\modemap\platforms\wp8\Bin\Debug\io.cordova.hellocordova.dll
+E:\apps\modemap\platforms\wp8\Bin\Debug\io.cordova.hellocordova.pdb
+E:\apps\modemap\platforms\wp8\Bin\Debug\AppManifest.xaml
+E:\apps\modemap\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+E:\apps\modemap\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+E:\apps\modemap\platforms\wp8\obj\Debug\App.g.cs
+E:\apps\modemap\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+E:\apps\modemap\platforms\wp8\obj\Debug\MainPage.g.cs
+E:\apps\modemap\platforms\wp8\obj\Debug\io.cordova.hellocordova.g.resources
+E:\apps\modemap\platforms\wp8\obj\Debug\io.cordova.hellocordova.dll
+E:\apps\modemap\platforms\wp8\obj\Debug\io.cordova.hellocordova.pdb
+E:\apps\modemap\platforms\wp8\obj\Debug\XapCacheFile.xml

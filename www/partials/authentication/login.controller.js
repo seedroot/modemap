@@ -5,8 +5,9 @@
 		.module('modemap')
 		.controller('loginCntrl', loginCntrl)
 
-	loginCntrl.$inject = []
-	function loginCntrl() {
+	loginCntrl.$inject = ['$scope'];
+	function loginCntrl($scope) {
 		var vm = this;
+		$scope.name = 'aziz'
 	}
 })();

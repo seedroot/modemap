@@ -5,7 +5,7 @@
 		.module('modemap')
 		.controller('loginCntrl', loginCntrl)
 
-	loginCntrl.$inject = []
+	loginCntrl.$inject = [];
 	function loginCntrl() {
 		var vm = this;
 	}
