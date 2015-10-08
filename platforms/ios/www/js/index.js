@@ -3,30 +3,23 @@
 
     angular
         .module('modemap', ['ui.router'])
-        .controller('mainCntrl', mainCntrl)
         .config(function($stateProvider, $urlRouterProvider) {
-            $urlRouterProvider.otherwise('/');
+            $urlRouterProvider.otherwise = '/login';
 
             $stateProvider
-                .state('main', {
-                    url: '/',
-                    templateUrl: 'index.html',
-                    controller: 'mainCntrl',
+                .state('forgot', {
+                    url: '/forgotPassword',
+                    templateUrl: 'partials/authentication/forgotPasswd.html',
+                    controller: 'forgotCntrl',
                     controllerAs: 'vm'
                 })
                 .state('login', {
                     url: '/login',
-                    //templateUrl: 'partials/authentication/login.html',
-                    template: '<h1>Hello Aziz</h1>',
+                    templateUrl: 'partials/authentication/login.html',
                     controller: 'loginCntrl',
                     controllerAs: 'vm'
                 })
-        });
-
-    mainCntrl.$inject = [];
-    function mainCntrl() {
-        var vm = this;
-    }
+        })
 
 
 })();

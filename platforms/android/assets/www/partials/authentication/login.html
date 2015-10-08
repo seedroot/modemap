@@ -1,1 +1,13 @@
-<H1>Login</H1>
+<form novalidate>
+  <fieldset>
+    <h2>Account Login</h2>
+    <div class="input">
+      <input type="email" placeholder="Enter Email"  ng-model="vm.name" name="username" required />
+    </div>
+    <div class="input">
+      <input type="password" placeholder="Enter Password" ng-model="vm.passwd" name="password" required />
+    </div>
+    <p><a href="#" class="mute">forgot password?</a></p>
+    <button type="submit" class="right">Login</button>
+  </fieldset>
+</form>

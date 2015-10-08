@@ -4,12 +4,12 @@
     angular
         .module('modemap', ['ui.router'])
         .config(function($stateProvider, $urlRouterProvider) {
-            $urlRouterProvider.otherwise = 'login';
+            $urlRouterProvider.otherwise = '/login';
 
             $stateProvider
                 .state('forgot', {
                     url: '/forgotPassword',
-                    templateUrl: 'partials/authentication/forgotPassword.html',
+                    templateUrl: 'partials/authentication/forgotPasswd.html',
                     controller: 'forgotCntrl',
                     controllerAs: 'vm'
                 })
